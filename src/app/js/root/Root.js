@@ -12,12 +12,6 @@ import AddTodo from '../redux/containers/AddTodo';
 import VisibleTodoList from '../redux/containers/VisibleTodoList';
 import Footer from '../todo/Footer';
 
-// const HomePage = () => <div>This is a Home Page</div>
-// const LoginPage = () => <div>This is a Login Page</div>
-// const RegisterPage = () => <div>This is a Register Page</div>
-// const ProfilePage = () => <div>This is a Profile Page</div>
-// const AboutPage = () => <div>This is a About Page</div>
-// const ContactPage = () => <div>This is a Contact Page</div>
 
 
 export default class Root extends Component {

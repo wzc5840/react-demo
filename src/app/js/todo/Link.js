@@ -21,10 +21,11 @@ export default class Link extends Component {
     render() {
 
         let activeView = null;
+        let that = this;
         if (this.props.active) {
             activeView = <span>{this.props.children}</span>;
         } else {
-            activeView = <a href="" onClick={e => {e.preventDefault();this.props.onClick()}}>
+            activeView = <a href="" onClick={e => {e.preventDefault();that.props.onClick()}}>
                 {this.props.children}
             </a>
         }
