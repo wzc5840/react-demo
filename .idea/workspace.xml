@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d3b12b2-63dd-4f06-aabc-c16c060fce70" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/js/components/FilterLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/js/redux/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/js/redux/containers/AddTodo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/js/redux/containers/FilterLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/js/redux/containers/VisibleTodoList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/js/redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/js/redux/reducers/todos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/js/redux/reducers/visibilityFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/js/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/js/todo/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/js/todo/Link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/js/todo/ToDo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/js/todo/ToDoList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/js/about/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/about/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/js/auth/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/auth/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/js/auth/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/auth/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/js/contact/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/js/home/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/js/me/profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/me/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/js/redux/containers/VisibleTodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/redux/containers/VisibleTodoList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/js/root/Root.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/js/root/Root.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,25 +17,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="38">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Root.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/js/root/Root.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
+                <element signature="e#1#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Root.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/js/root/Root.js">
+      <file leaf-file-name="VisibleTodoList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/js/redux/containers/VisibleTodoList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+            <state relative-caret-position="84">
+              <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
-                <element signature="e#1#42#0" expanded="true" />
+                <element signature="e#0#37#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -102,7 +91,6 @@
         <option value="$PROJECT_DIR$/src/app/js/home/home.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/app/js/redux/store.js" />
-        <option value="$PROJECT_DIR$/src/app/js/root/Root.js" />
         <option value="$PROJECT_DIR$/src/app/js/components/ToDo.js" />
         <option value="$PROJECT_DIR$/src/app/js/todo/ToDo.js" />
         <option value="$PROJECT_DIR$/src/app/js/todo/ToDoList.js" />
@@ -110,7 +98,6 @@
         <option value="$PROJECT_DIR$/src/app/js/todo/Footer.js" />
         <option value="$PROJECT_DIR$/src/app/js/components/FilterLink.js" />
         <option value="$PROJECT_DIR$/src/app/js/containers/VisibleTodoList.js" />
-        <option value="$PROJECT_DIR$/src/app/js/redux/containers/VisibleTodoList.js" />
         <option value="$PROJECT_DIR$/src/app/js/redux/containers/FilterLink.js" />
         <option value="$PROJECT_DIR$/src/app/js/redux/actions/index.js" />
         <option value="$PROJECT_DIR$/src/app/js/redux/reducers/todos.js" />
@@ -118,6 +105,8 @@
         <option value="$PROJECT_DIR$/src/app/js/redux/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/app/js/redux/containers/AddTodo.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/app/js/redux/containers/VisibleTodoList.js" />
+        <option value="$PROJECT_DIR$/src/app/js/root/Root.js" />
       </list>
     </option>
   </component>
@@ -316,12 +305,12 @@
       <option name="presentableId" value="Default" />
       <updated>1542765828350</updated>
       <workItem from="1542765829617" duration="3056000" />
-      <workItem from="1542769039319" duration="11194000" />
+      <workItem from="1542769039319" duration="11556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14250000" />
+    <option name="totallyTimeSpent" value="14612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="23" width="1425" height="835" extended-state="0" />
@@ -540,13 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/js/redux/store.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -644,13 +626,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/js/redux/containers/VisibleTodoList.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="42">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -664,22 +650,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/js/root/Root.js">
+    <entry file="file://$PROJECT_DIR$/src/app/js/redux/containers/VisibleTodoList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+        <state relative-caret-position="84">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
-            <element signature="e#1#42#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/app/js/root/Root.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="100">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#1#42#0" expanded="true" />
           </folding>
         </state>
       </provider>

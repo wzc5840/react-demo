@@ -8,7 +8,9 @@ import About from '../about/About';
 import Contact from '../contact/Contact';
 import Profile from '../me/Profile';
 import Home from '../home/Home';
-
+import AddTodo from '../redux/containers/AddTodo';
+import VisibleTodoList from '../redux/containers/VisibleTodoList';
+import Footer from '../todo/Footer';
 
 // const HomePage = () => <div>This is a Home Page</div>
 // const LoginPage = () => <div>This is a Login Page</div>
@@ -33,30 +35,33 @@ export default class Root extends Component {
         return (
             <BrowserRouter>
                 <div>
-                    <header>
-                        <p>React Router v4 Browser Example</p>
-                        <nav>
-                            <ul>
-                                <li><Link to="/">Home</Link></li>
-                                <li><Link to="/about">About</Link></li>
-                                <li><Link to="/me">Profile</Link></li>
-                                <li><Link to="/login">Login</Link></li>
-                                <li><Link to="/register">Register</Link></li>
-                                <li><Link to="/contact">Contact</Link></li>
-                            </ul>
-                        </nav>
-                    </header>
-                    <div className="container">
-                        <Route path="/" exact component={Home} />
-                        <Route path="/about" component={About} />
-                        <Route path="/contact" component={Contact} />
-                        <Route path="/login" component={Login} />
-                        <Route path="/register" component={Register} />
-                        <Route path="/me" component={Profile} />
-                    </div>
-                    <footer>
-                        React Router v4 Browser Example (c) 2017
-                    </footer>
+                    {/*<header>*/}
+                        {/*<p>React Router v4 Browser Example</p>*/}
+                        {/*<nav>*/}
+                            {/*<ul>*/}
+                                {/*<li><Link to="/">Home</Link></li>*/}
+                                {/*<li><Link to="/about">About</Link></li>*/}
+                                {/*<li><Link to="/me">Profile</Link></li>*/}
+                                {/*<li><Link to="/login">Login</Link></li>*/}
+                                {/*<li><Link to="/register">Register</Link></li>*/}
+                                {/*<li><Link to="/contact">Contact</Link></li>*/}
+                            {/*</ul>*/}
+                        {/*</nav>*/}
+                    {/*</header>*/}
+                    {/*<div className="container">*/}
+                        {/*<Route path="/" exact component={Home} />*/}
+                        {/*<Route path="/about" component={About} />*/}
+                        {/*<Route path="/contact" component={Contact} />*/}
+                        {/*<Route path="/login" component={Login} />*/}
+                        {/*<Route path="/register" component={Register} />*/}
+                        {/*<Route path="/me" component={Profile} />*/}
+                    {/*</div>*/}
+                    <AddTodo />
+                    <VisibleTodoList />
+                    <Footer />
+                    {/*<footer>*/}
+                        {/*React Router v4 Browser Example (c) 2017*/}
+                    {/*</footer>*/}
                 </div>
             </BrowserRouter>
         );
