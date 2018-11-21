@@ -2,12 +2,12 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
 
-import Login from '../auth/login';
-import Register from '../auth/register';
-import About from '../about/about';
-import Contact from '../contact/contact';
-import Profile from '../me/profile';
-import Home from '../home/home';
+import Login from '../auth/Login';
+import Register from '../auth/Register';
+import About from '../about/About';
+import Contact from '../contact/Contact';
+import Profile from '../me/Profile';
+import Home from '../home/Home';
 
 
 // const HomePage = () => <div>This is a Home Page</div>
