@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import { Flex, WhiteSpace } from 'antd-mobile';
-import '../css/common.css';
+import '../../css/common.css';
 
 
 const PlaceHolder = ({ className = '', ...restProps }) => (

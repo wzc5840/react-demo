@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import FlexDemo from './Components/js/FlexDemo';
-
+import Root from './app/js/root/Root';
 
 // class App extends Component {
 //   render() {
@@ -31,7 +30,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-              <FlexDemo />
+              <Root />
             </div>
         );
     }
